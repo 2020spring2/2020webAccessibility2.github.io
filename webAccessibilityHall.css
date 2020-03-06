@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
 	background: #FFB28A;
-	min-width: 650px;
+	min-width: 800px;
 }
 /* IDs */
 #tableOfContents {
@@ -46,6 +46,17 @@ p, h5 {
 	margin: 0px auto;
 	padding: 5px;
 	display: inline-block;
+}
+li {
+	display: inline-block;
+}
+/* Images */
+img {
+	max-height: 200px;
+	float: right;
+}
+.pictures {
+	max-width: 800px;
 }
 /* Links */
 h5:hover {
