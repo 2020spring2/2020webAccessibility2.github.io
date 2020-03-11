@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
 	background: #FFB28A;
-	min-width: 800px;
+	min-width: 930px;
 }
 /* IDs */
 #tableOfContents {
@@ -16,13 +16,51 @@ body {
 #title {
 	border-radius: 35px;
 	background: radial-gradient(#F6A63A, #FF9A00);
-	max-width: 650px;
+	width: 650px;
 	margin: 5px auto;
+}
+#highContrast {
+	color:#02FFFD;
+	background-color: #270000;
+	border-bottom: 5px #000000 solid;
+	text-align: justify;
+}
+#lowBright {
+	color: #000000;
+	background-color: #A28364;
+	border-bottom: 5px #000000 solid;
+	text-align: justify;
 }
 /* Classes */
 .content {
 	max-width: 650px;
-	margin: inherit;
+	margin: auto;
+}
+.pictures {
+	max-width: 930px;
+	margin: auto;
+}
+.colors {
+	width: 315px;
+	height: 150px;
+	display:inline-block;
+	border: 2px #000000 solid;
+}
+.colorExplained {
+	text-align: center;
+	font-size: 15px;
+}
+.W3C {
+	border: 3px groove #000000;
+	display: block;
+	width: 200px;
+	height:auto;
+	margin: auto;
+	text-align: center;
+}
+.W3C:hover {
+	background: #FFAA56;
+	color: #9D0002;
 }
 /* Text */
 h1 {
@@ -49,14 +87,18 @@ p, h5 {
 }
 li {
 	display: inline-block;
+	font-family: "Gill Sans";
+	margin: 0px;
+	padding:0px;
+}
+b:hover {
+	color: #FFB28A;
+	background-color: #000000;
 }
 /* Images */
 img {
 	max-height: 200px;
 	float: right;
-}
-.pictures {
-	max-width: 800px;
 }
 /* Links */
 h5:hover {
