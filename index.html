@@ -36,7 +36,8 @@
 			<div class="content" id="picture">
 				<h2>Pictures, Illustrations, Charts</h2>
 					<h3>'Alt' Text</h3>
-						<p>The 'alt' text of the image(or illustration, or chart, and etc.) that is shown is designed to describe the image if it does not load on the page or if someone is using a screen reader. This text should inform the reader of what the content you have chosen is trying to explain in a format that is easily understandable. For instance, the 'alt' text for the image to the right is: "Cartoon Campfire PNG" </p>
+						<p>The 'alt' text of the image(or illustration, or chart, and etc.) that is shown is designed to describe the image if it does not load on the page or if someone is using a screen reader. This text should inform the reader of what the content you have chosen is trying to explain in a format that is easily understandable. For instance, the 'alt' text for the image to the right is: "Cartoon Campfire PNG" On the other hand it may also be unnecessary to have alternative text for an image, if I had a second image of a campfire for the same reason I had the first, it may only be needed to have 'alt' text for the first. In that case, the input for the image's alt would be "null."<br>
+			  </p>
 			</div>
 		</div>
 		<div class="content" id="videoAudio">
@@ -51,24 +52,36 @@
 						<li>-News Feeds</li>
 						<li>-Slideshows</li>
 					</ul>
+					<p>All of these can be distracting from content or if the content within them is scrolling, it may be too fast to read for some viewers. To counteract these problems, it is suggested that you put a setting to stop or slow down any distracting or scrolling content, especially if it starts on your page automatically. It is also helpful if you have a transcript be available for any content that may move to quickly.</p>
 		</div>
 
 		<div class="content" id="structure">
 			<h2>Structure</h2>
-			<h3>Background Vs. Text Color Contrast</h3>
+				<h3>Background Vs. Content Color Contrast</h3>
+					<p>For people who have trouble reading certain colors require that you keep the contrast between the background of your webpage and the content at high degree. Some people also need text at a low luminance, some people with reading disabilities such as dyslexia cannot read bright text, so they require a lower brightness on content. For instance this first example shows a high contrast and the second shows a low luminancy, the colors used are diplayed below the example.</p>
+					<div class="colors">
+						<p id="highContrast">This is an example of a high contrast background to content ratio. This is done so those with colorblindness and other reading disabilities can read the content.</p>
+						<p class="colorExplained">The Colors Used in the example above are: Bright Blue(#02FFFD) and Deep Brown(#270000)</p>
+					</div>
+					<div class="colors">
+						<p id="lowBright">This is an example or a low luminance background and content. This is done so those with dyslexia and other reading disabilities can read the content.</p>
+						<p class="colorExplained">The Colors Used in the example above are: Black(#000000) and Light Brown(#A28364)</p>
+					</div>
 		</div>
 		
 		<div class="content" id="interact">
 			<h2>Interactivity</h2>
-			<h3>Keyboard Access</h3>
-			<p></p>
-			<h3>Screen Reader Compatibility</h3>
-			<p></p>
+		  		<h3>Keyboard Access</h3>
+					<p>When someone hovers over any link on the website, you want it to be obvious and visible, because some people with impairments that make it hard for them to navigate websites and the ability to know where their cursor is located is an essential function needed in an accessible website. For instance when you hover over <b>This Text</b>, it's background and the text will switch colors, the background being black and the text being the light orange.</p>
+				<h3>Screen Reader Compatibility</h3>
+		  			<p>To be compatible with a screen reader is not as hard as it sounds. In fact, if you follow everything previously mentioned above this section, your website should be fully compatible. For compatibility, you need alt text for your images, clear indicators of where the mouse is, alternatives to video content, and a few other things.</p>
 		</div>
 
 		<div class="content" id="tests">
 			<h2>How To Test Your Website</h2>
-			<p></p>
+				<p>Of course, once you impliment all these things to make your website as accessible as possible, you can't know if you did it correctly. There are a few ways to figure it out. Checking it by using the soft- or hardware that you designing it for: running the website through a screenreader or things similar. You can also run your website through another website that tests yours. The two that have been used on this website are the World Wide Web Consortium's(W3C) HTML5 and CSS3 tester. These make sure that your code is correctly formatted. The links to these two websites are listed below this paragraph. There are many websites that are recommended for testing a websites accessibility, they can be found on the W3C's official website, linked at the bottom of the page.</p>
+				<a class="W3C" target="_blank" href="https://validator.w3.org">HTML5 Validator</a> 
+				<a class="W3C" target="_blank" href="https://jigsaw.w3.org/css-validator/">CSS3 Validator</a>
 		</div>
 		
 		<!--All Outgoing Links And Back to Top-->
