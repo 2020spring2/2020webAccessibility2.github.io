@@ -31,6 +31,12 @@ body {
 	border-bottom: 5px #000000 solid;
 	text-align: justify;
 }
+#links {
+	width: 810px;
+	margin: 10px auto auto auto;
+	height: 50px;
+	
+}
 /* Classes */
 .content {
 	max-width: 650px;
