@@ -62,6 +62,9 @@ body {
 	background: #FFAA56;
 	color: #9D0002;
 }
+.backToTop {
+	float: right;
+}
 /* Text */
 h1 {
 	text-transform: capitalize;
