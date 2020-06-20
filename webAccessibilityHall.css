@@ -48,6 +48,7 @@ body {
 }
 .colors {
 	width: 320px;
+	height: 165px;
 	display:inline-block;
 	border: 2px #000000 solid;
 }
